@@ -24,6 +24,8 @@ app.listen(PORT, () => {
   console.log(`Server กำลังทำงานที่ http://localhost:${PORT}`);
 });
 
+let nextId = 3;
+
 let students = [
   {
     id: 1,
